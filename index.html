@@ -24,7 +24,7 @@
     <div class="container">
       <h1 class="text-center">Welcome to Giphy Search</h1>
 
-      {{ (4*8) / 2 }}
+      {{ 21 * 2 }}
 
       <form class="form-inline">
         <div class="form-group">
@@ -34,7 +34,9 @@
         <button type="submit" class="btn btn-primary">Search</button>
       </form>
 
-      <div id="results"></div>
+      <div ng-controller="GiphyCtrl" id="results">
+        {{ test_string }}
+      </div>
     </div>
   </body>
 </html>
