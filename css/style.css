@@ -1,0 +1,14 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#resultbox {
+	box-sizing: border-box;
+	margin: 1em;
+	float: left;
+}
+
+#resultimage {
+	margin: 0.8em;
+}
